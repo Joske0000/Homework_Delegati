@@ -25,19 +25,21 @@ namespace Homework_Delegati
             var proizvod = new Artikli();
             proizvod.MaloprodajnaCijena.PovecajMaloprodajnuCijenu(10);
             proizvod.VeleprodajnaCijena.PovecajVeleprodajnuCijenu(20);
+            proizvod.MaloprodajnaCijena.PovecajMaloprodajnuCijenu(50);
+            proizvod.VeleprodajnaCijena.PovecajVeleprodajnuCijenu(100);
         }
 
         public static void Metoda1 (string poruka)
         {
-            Console.WriteLine($"Ivršavamo metodu 1 sa tekstom: {poruka}.");
+            Console.WriteLine($"Izvršavamo metodu 1 sa tekstom: {poruka}.");
         }
         public static void Metoda2(string tekst)
         {
-            Console.WriteLine($"Ivršavamo metodu 2 sa tekstom: {tekst}.");
+            Console.WriteLine($"Izvršavamo metodu 2 sa tekstom: {tekst}.");
         }
         public static void Metoda3(string message)
         {
-            Console.WriteLine($"Ivršavamo metodu 3 sa tekstom: {message}.");
+            Console.WriteLine($"Izvršavamo metodu 3 sa tekstom: {message}.");
             
         }
         
