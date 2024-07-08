@@ -18,10 +18,8 @@ namespace Homework_Delegati
             del1("Pero");
             del2("Marko");
             del3("Stipe");
-
             MojDelegat del = del1 + del2 +del3;
             del("rezultat");
-            
             var proizvod = new Artikli();
             proizvod.MaloprodajnaCijena.PovecajMaloprodajnuCijenu(10);
             proizvod.VeleprodajnaCijena.PovecajVeleprodajnuCijenu(20);
