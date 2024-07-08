@@ -21,7 +21,10 @@ namespace Homework_Delegati
 
             MojDelegat del = del1 + del2 +del3;
             del("rezultat");
-            Console.ReadKey();
+            
+            var proizvod = new Artikli();
+            proizvod.MaloprodajnaCijena.PovecajMaloprodajnuCijenu(10);
+            proizvod.VeleprodajnaCijena.PovecajVeleprodajnuCijenu(20);
         }
 
         public static void Metoda1 (string poruka)
