@@ -2,7 +2,6 @@
 
 namespace Homework_Delegati 
 {
-    
     internal class Cijena 
     {
        public event EventHandler<double> CijenaPromjenjena;
